@@ -291,7 +291,7 @@ impl Builder {
             "c++_static"
         });
         for flag in &[
-            "-std=c++17",
+            "-std=c++1z",
             "-Wall",
             "-Wextra-semi",
             "-Wshadow",
